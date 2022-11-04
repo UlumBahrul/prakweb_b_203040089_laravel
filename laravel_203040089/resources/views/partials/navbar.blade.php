@@ -7,10 +7,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link {{ ($active === "home" ) ? 'active' : '' }}" aria-current="page" href="/">Home</a>
-                <a class="nav-link {{ ($active === "about" ) ? 'active' : ''" href="/about">About</a>
-                <a class="nav-link {{ ($active === "blog" ) ? 'active' : ''" href="/posts">Blog</a>
-                <a class="nav-link {{ ($active === "categories" ) ? 'active' : ''" href="/categories">Categories</a>
-
+                <a class="nav-link {{ ($active === "about" ) ? 'active' : ''}}" href="/about">About</a>
+                <a class="nav-link {{ ($active === "blog" ) ? 'active' : ''}}" href="/posts">Blog</a>
+                <a class="nav-link {{ ($active === "categories" ) ? 'active' : ''}} " href="/categories">Categories</a>
+            </div>
         </div>
     </div>
 </nav>
