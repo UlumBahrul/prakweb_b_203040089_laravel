@@ -7,12 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
+
+    {{-- trix editor --}}
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
+    <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
+ 
+    <style>
+      trix-toolbar [data-trix-button-group="file-tools"]{
+        display:none;
+      }
+    </style>
   </head>
   <body>
     
